@@ -1,10 +1,11 @@
 import React from 'react'
-import Main from './components/Main'
 
 const page = () => {
   return (
     <div>
-      <Main />
+        <div className='w-60 h-60 bg-green-400'>
+            
+        </div>
     </div>
   )
 }
