@@ -134,7 +134,7 @@ const Main = () => {
                     }}
                     sx={{ flex: 1 }}
                   />
-                  <ButtonUI text="➕" onClick={() => handleCreateSubTask(index)} />
+                  <button onClick={() => handleCreateSubTask(index)} className='bg-green-400 p-4 rounded-2xl cursor-pointer'>➕</button>
                 </div>
               )}
             </div>
